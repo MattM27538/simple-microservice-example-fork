@@ -6,6 +6,10 @@ After=network.target
 Environment="QUOTES_API=http://35.209.203.232"
 User=mattm12525
 WorkingDirectory=/home/mattm12525/SimpleMicroService/ApiGateway/
+ExecPre= npm install 
+ExecPre= npm install express
+ExecPre= npm install cors
+ExecPre= npm install axios
 ExecStart=npm run start
 Restart=always
 
