@@ -3,7 +3,7 @@ Description=API Gateway Service Application
 After=network.target
 
 [Service]
-Environment="QUOTES_API=http://https://35.208.132.82"
+Environment="QUOTES_API=http://35.208.132.82"
 User=mattm12525
 WorkingDirectory=/home/mattm12525/SimpleMicroService/ApiGateway/
 ExecPre=npm install
