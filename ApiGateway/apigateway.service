@@ -6,7 +6,7 @@ After=network.target
 Environment="QUOTES_API=http://35.208.132.82"
 User=mattm12525
 WorkingDirectory=/home/mattm12525/SimpleMicroService/ApiGateway/
-ExecPre=npm install
+ExecStartPre=npm install
 ExecStart=npm run start
 Restart=always
 
