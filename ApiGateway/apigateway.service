@@ -4,7 +4,7 @@ After=network.target
 
 [Service]
 Environment="QUOTES_API=http://35.209.203.232"
-User=mattm12525
+User=root
 WorkingDirectory=/home/mattm12525/SimpleMicroService/ApiGateway/
 ExecPre= npm install 
 ExecPre= npm install express
