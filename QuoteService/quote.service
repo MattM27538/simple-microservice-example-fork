@@ -3,9 +3,9 @@ Description=Quote Service Application
 After=network.target
 
 [Service]
-User=bryandixon
-WorkingDirectory=/home/bryandixon/simple-microservice-example/QuoteService/
-ExecStart=/home/bryandixon/simple-microservice-example/QuoteService/venv/bin/python /home/bryandixon/simple-microservice-example/QuoteService/main.py
+User=mattm12525
+WorkingDirectory=/home/mattm12525/SimpleMicroService/QuoteService/
+ExecStart=/home/mattm12525/SimpleMicroService/QuoteService/venv/bin/python /home/mattm12525/SimpleMicroService/QuoteService/main.py
 Restart=always
 
 [Install]
